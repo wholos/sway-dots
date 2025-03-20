@@ -1,0 +1,65 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: #323232;
+    color: white;
+}
+
+tooltip {
+  background-color: #323232;
+  border: 1px solid rgba(100, 114, 125, 0.5);
+}
+tooltip label {
+  color: white;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background: transparent;
+    color: white;
+}
+
+#workspaces button.focused {
+    background: #1156c1;
+}
+
+#mode, #clock, #bluetooth, #network, #language, #custom-power {
+    padding: 0 10px;
+}
+
+#mode {
+    background: #323232;
+}
+
+#clock {
+    background-color: #323232;
+}
+
+#bluetooth {
+    background-color: #323232;
+}
+
+#network {
+    background-color: #323232;
+}
+
+#language {
+    background-color: #323232;
+}
+
+#custom-power {
+    background-color: #323232;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: black;
+    }
+}
